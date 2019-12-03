@@ -3,12 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Km percorrido</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<main>
-		<div class="panel">
+		<div class="painel">
+			<h2>Preencha os campos</h2>
 			<div class="conteudo-painel"></div>
-				<p>Para prosseguir com o cálculo, informe os dados de acordo com o preço atual dos combutíveis e consumo do seu veículo de acordo com o combústivel específico.</p>
+				
 
 				<form action="calc.php" method="POST">
 					<label for="gasolina">Digite o valor da gasolina</label>
@@ -25,8 +27,11 @@
 
 					<label for="kilometro">Digite a kilometragem percorrida</label>
 					<input type="number" name="kilometro" />
-
-					<button type="submit">Calcular</button>
+					
+					<div class="btns">
+						<a class="btn" href="#"><button type="submit"></button>Calcular</a>
+						<a class="btn" href="index.php">Voltar</a>	
+					</div>
 				</form>
 		</div>
 	</main>

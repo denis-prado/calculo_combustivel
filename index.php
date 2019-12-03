@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculo Combustivel</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<main>
@@ -11,9 +12,10 @@
 			<div class="conteudo-painel">
 				<p>Está aplicação tem como finalidade
 				calcular a média de consumo de um veiculo
-				de acordo com os dados forcecidos.</p> 
+				de acordo com os dados forcecidos, para 
+				prosseguir click em continuar.</p> 
 
-				<a class="btn" href="data.php">Avançar</a>
+				<a class="btn block" href="data.php">Avançar</a>
 			</div>
 		</div>
 	</main>

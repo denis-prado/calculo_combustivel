@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	visibility: hidden;
+}
+
+main{
+	display: flex;
+	padding: 10px;
+	font-family: arial;
+}
+
+h2{
+	padding: 12px;
+	text-align: center;
+	background-color: #D9EDF7;
+	border-radius: 8px 8px 0 0;
+}
+
+.painel{
+	border-style: solid;
+	border-color: #D9EDF7;
+	border-width: thin;
+	border-radius: 8px;
+	max-width: 500px;
+	flex-grow: 1;
+}
+
+.conteudo-painel{
+	padding: 20px;
+}
+
+.btns{
+	display: block;
+	padding: 30px;
+	text-align: center;
+}
+
+.btns a{
+	margin: 0px 30px;
+}
+
+.btn{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #286090;
+	width: 120px;
+	margin: 15px 0 0 0;
+	color: #FFFEFA;
+	text-align: center;
+	border-radius: 4px;
+	border-style: none;
+}
+
+.block{
+	display: block;
+}
+
+input{
+	width: 100%;
+	margin: 5px 0;
+	padding: 4px;
+	box-sizing: border-box;
+}
