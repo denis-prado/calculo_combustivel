@@ -16,13 +16,13 @@
 					<label for="gasolina">Digite o valor da gasolina</label>
 					<input type="number" name="gasolina" />
 
-					<label for="consumo">Informe o consumo por 1/L para gasolina</label>
+					<label for="consumoGasolina">Informe o consumo por 1/L para gasolina</label>
 					<input type="number" name="consumoGasolina" />
 
 					<label for="alcool">Digite o valor da alcool</label>
 					<input type="number" name="alcool" />
 
-					<label for="consumo">Informe o consumo por 1/L para alcool</label>
+					<label for="consumoAlcool">Informe o consumo por 1/L para alcool</label>
 					<input type="number" name="consumoAlcool" />
 
 					<label for="kilometro">Digite a kilometragem percorrida</label>

@@ -10,7 +10,7 @@
 		<div class="painel">
 			<h2>Cálculo de Combústivel</h2>
 			<div class="conteudo-painel">
-				<p>Está aplicação tem como finalidade
+				<p class="text">Está aplicação tem como finalidade
 				calcular a média de consumo de um veiculo
 				de acordo com os dados forcecidos, para 
 				prosseguir click em continuar.</p> 
