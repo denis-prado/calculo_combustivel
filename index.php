@@ -3,19 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculo Combustivel</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 	<main>
 		<div class="painel">
 			<h2>Cálculo de Combústivel</h2>
-			<div class="conteudo-painel">
-				<p class="text">Está aplicação tem como finalidade
-				calcular a média de consumo de um veiculo
-				de acordo com os dados forcecidos, para 
-				prosseguir click em continuar.</p> 
 
-				<a class="btn block" href="data.php">Avançar</a>
+			<div class="conteudo-painel">
+				<p>Esta aplicação tem como objetivo demonstrar 
+				os valores que serão gastos em combustível
+				durante uma viagem, com base no consumo do seu 
+				veículo e na distância determinada por você.</p> 
+				<p>Os Combustíveis disponíveis para os calculos
+				são:</p>
+				<ul>
+					<li>Gasolina</li>
+					<li>Alcool</li>
+				</ul>
+
+				<a class="btn" href="data.php">Avançar</a>
 			</div>
 		</div>
 	</main>

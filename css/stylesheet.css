@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.painel{
+	margin: 30px auto;
+	max-width: 500px;
+	border-style: solid;
+	border-width: thin;
+	background-color: black;
+	border-radius: 8px 8px 0 0;
+}
+
+.painel h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	color: white;
+}
+
+.conteudo-painel{
+	text-align: justify;
+	background-color: #fff;
+	padding: 20px 30px;
+}
+
+.conteudo-painel ul{
+	padding: 5px 15px;
+}
+
+.conteudo-painel a{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.btn{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	width: 100px;
+	text-align: center;
+	padding: 7px 0;
+	border-radius: 5px;
+	font-size: 16px;
+	border-style: none;
+}
+
+.conteudo-painel form label{
+	display: block;
+}
+
+.conteudo-painel form input{
+	width: 100%;
+	padding: 2px 0;
+	margin-bottom: 20px;
+}
+
+.esquerda-direita{
+	display: inline-block;
+	margin: 0 55px;
+}
+
+.sucesso{
+	background-color: #a5f7c2;
+	padding: 20px;
+}
+
+.sucesso ul li{
+	padding: 2px 0;
+}
+
+.erro{
+	background-color: #ff5f5f;
+	padding: 20px;
+}
